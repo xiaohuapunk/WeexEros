@@ -1,0 +1,29 @@
+# IOS
+# Xcode
+*/build/*
+*.pbxuser
+*.pbxprog
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+WeexiOSSDK
+Benmu-iOS-Library
+
+#CocoaPods
+Pods
+
+*.xccheckout
+*.xcworkspacedata
+*.xcworkspace
+Podfile.lock
+# END IOS
