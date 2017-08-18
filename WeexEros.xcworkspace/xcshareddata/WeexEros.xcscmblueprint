@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "639AF58B635A2F1899B2362FEB7B99340809B768",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F554DCC207E28672E749A6B179B4683E3E7CEFC4" : 9223372036854775807,
+    "639AF58B635A2F1899B2362FEB7B99340809B768" : 9223372036854775807,
+    "09EEE1B46ACDFAA3774FFFE63FF0BB086D431DA0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E0912290-07B6-477D-9AE1-C48B0200ECD6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F554DCC207E28672E749A6B179B4683E3E7CEFC4" : "weex-eros\/ios\/WeexEros\/WeexiOSSDK\/",
+    "639AF58B635A2F1899B2362FEB7B99340809B768" : "weex-eros\/",
+    "09EEE1B46ACDFAA3774FFFE63FF0BB086D431DA0" : "weex-eros\/ios\/WeexEros\/Benmu-iOS-Library\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeexEros",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/WeexEros\/WeexEros.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.benmu-health.org\/fe\/Benmu-iOS-Library.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09EEE1B46ACDFAA3774FFFE63FF0BB086D431DA0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.benmu-health.org:fe\/weex-eros.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "639AF58B635A2F1899B2362FEB7B99340809B768"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.benmu-health.org\/xionghuayu\/WeexiOSSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F554DCC207E28672E749A6B179B4683E3E7CEFC4"
+    }
+  ]
+}

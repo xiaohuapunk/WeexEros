@@ -1,0 +1,35 @@
+{
+    "appName": "WeexEros",
+    "page": {
+        "homePage": "/pages/home/index.js",
+        "mediatorPage": "/service/bus/index.js",
+        "navBarColor": "#3385ff"
+    },
+    "url": {
+        "baseUrl": "http://test4.benmu-health.com",
+        "serverUrl": "http://fe.benmu-health.com",
+        "cdnUrl": "https://lev-inf.benmu-health.com",
+        "uploadImageApi": "",
+        "checkJsVersionApi": "/mobile/app/version/checkJSUpdate"
+    },
+    "getui": {
+        "enabled": "ture",
+        "appId": "oqoYepdVOmAls6b36biSV2",
+        "appKey": "DB8n1tT8XpAgzjMfMyBGvA",
+        "appSecret": "epeqetV7Q46zWoZkdaWZE9"
+    },
+    "umeng": {
+        "enabled": "ture",
+        "iOSAppKey": "59264dee04e205bbe200182e",
+        "androidAppKey": "value"
+    },
+    "wechat": {
+        "enabled": "false",
+        "appId": "",
+        "appSecret": ""
+    },
+    "amap": {
+        "enabled": "false",
+        "appKey": ""
+    }
+}
