@@ -11,7 +11,6 @@
 		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
 		9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737F9F71F384AFD00000800 /* Assets.xcassets */; };
 		9737FA031F385A2700000800 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9737FA021F385A2700000800 /* libbz2.tbd */; };
-		9737FA0A1F385B3200000800 /* BMMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737FA091F385B3200000800 /* BMMethods.m */; };
 		9737FA0D1F385B4700000800 /* BMRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737FA0C1F385B4700000800 /* BMRouterManager.m */; };
 		97DFF8D41F59054900AC60AC /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D11F59054900AC60AC /* config.json */; };
 		97DFF8D51F59054900AC60AC /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D21F59054900AC60AC /* pages.config */; };
@@ -31,8 +30,6 @@
 		9737F9F71F384AFD00000800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9737F9FC1F384AFD00000800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9737FA021F385A2700000800 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		9737FA081F385B3200000800 /* BMMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMethods.h; sourceTree = "<group>"; };
-		9737FA091F385B3200000800 /* BMMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMethods.m; sourceTree = "<group>"; };
 		9737FA0B1F385B4700000800 /* BMRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRouterManager.h; sourceTree = "<group>"; };
 		9737FA0C1F385B4700000800 /* BMRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRouterManager.m; sourceTree = "<group>"; };
 		97DFF8D11F59054900AC60AC /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
@@ -95,8 +92,6 @@
 				97155AC51F444E4200615307 /* WeexEros.entitlements */,
 				9737F9EE1F384AFD00000800 /* AppDelegate.h */,
 				9737F9EF1F384AFD00000800 /* AppDelegate.m */,
-				9737FA081F385B3200000800 /* BMMethods.h */,
-				9737FA091F385B3200000800 /* BMMethods.m */,
 				9737FA0B1F385B4700000800 /* BMRouterManager.h */,
 				9737FA0C1F385B4700000800 /* BMRouterManager.m */,
 				9737F9F71F384AFD00000800 /* Assets.xcassets */,
@@ -250,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9737FA0D1F385B4700000800 /* BMRouterManager.m in Sources */,
-				9737FA0A1F385B3200000800 /* BMMethods.m in Sources */,
 				9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */,
 				9737F9ED1F384AFD00000800 /* main.m in Sources */,
 			);
