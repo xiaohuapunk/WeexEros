@@ -1,17 +1,27 @@
 {
-    "appName": "WeexEros",
+    "appName": "weex-eros-template",
+    "version": {
+        "android": "1.0.0",
+        "iOS": "1.0.0"
+    },
     "page": {
         "homePage": "/pages/home/index.js",
         "mediatorPage": "/service/bus/index.js",
         "navBarColor": "#3385ff"
     },
+
     "url": {
-        "baseUrl": "http://test4.benmu-health.com",
-        "serverUrl": "http://fe.benmu-health.com",
-        "cdnUrl": "https://lev-inf.benmu-health.com",
-        "uploadImageApi": "",
-        "checkJsVersionApi": "/mobile/app/version/checkJSUpdate"
+        "request": "http://test.weex-eros.com",
+        "local": "http://app.weex-eros.com",
+        "image": "https://lev-inf.benmu-health.com/test/xxx",
+        "updateVersion": "http://test.weex-eros.com/version/checkJSUpdate"
     },
+    "zipFolder": {
+        "server": "home/app/",
+        "iOS": "/ios/WeexEros/WeexEros",
+        "android": "/android/WeexFrameworkWrapper/app/src/main/assets"
+    },
+    
     "getui": {
         "enabled": "ture",
         "appId": "oqoYepdVOmAls6b36biSV2",

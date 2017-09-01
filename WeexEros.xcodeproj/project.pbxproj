@@ -11,11 +11,11 @@
 		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
 		9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737F9F71F384AFD00000800 /* Assets.xcassets */; };
 		9737FA031F385A2700000800 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9737FA021F385A2700000800 /* libbz2.tbd */; };
-		9737FA061F385A7600000800 /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 9737FA041F385A7600000800 /* pages.config */; };
-		9737FA071F385A7600000800 /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9737FA051F385A7600000800 /* pages.zip */; };
 		9737FA0A1F385B3200000800 /* BMMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737FA091F385B3200000800 /* BMMethods.m */; };
 		9737FA0D1F385B4700000800 /* BMRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737FA0C1F385B4700000800 /* BMRouterManager.m */; };
-		975890211F43059100109D31 /* platform.json in Resources */ = {isa = PBXBuildFile; fileRef = 975890201F43059100109D31 /* platform.json */; };
+		97DFF8D41F59054900AC60AC /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D11F59054900AC60AC /* config.json */; };
+		97DFF8D51F59054900AC60AC /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D21F59054900AC60AC /* pages.config */; };
+		97DFF8D61F59054900AC60AC /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D31F59054900AC60AC /* pages.zip */; };
 		E1DE85A0A42930C50BEB1245 /* libPods-WeexEros.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE25A79A3A97DFB7A3158EC /* libPods-WeexEros.a */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +31,13 @@
 		9737F9F71F384AFD00000800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9737F9FC1F384AFD00000800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9737FA021F385A2700000800 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		9737FA041F385A7600000800 /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
-		9737FA051F385A7600000800 /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
 		9737FA081F385B3200000800 /* BMMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMethods.h; sourceTree = "<group>"; };
 		9737FA091F385B3200000800 /* BMMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMethods.m; sourceTree = "<group>"; };
 		9737FA0B1F385B4700000800 /* BMRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRouterManager.h; sourceTree = "<group>"; };
 		9737FA0C1F385B4700000800 /* BMRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRouterManager.m; sourceTree = "<group>"; };
-		975890201F43059100109D31 /* platform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = platform.json; sourceTree = "<group>"; };
+		97DFF8D11F59054900AC60AC /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		97DFF8D21F59054900AC60AC /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
+		97DFF8D31F59054900AC60AC /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +109,9 @@
 		9737F9EB1F384AFD00000800 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				975890201F43059100109D31 /* platform.json */,
-				9737FA041F385A7600000800 /* pages.config */,
-				9737FA051F385A7600000800 /* pages.zip */,
+				97DFF8D11F59054900AC60AC /* config.json */,
+				97DFF8D21F59054900AC60AC /* pages.config */,
+				97DFF8D31F59054900AC60AC /* pages.zip */,
 				9737F9EC1F384AFD00000800 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -187,10 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9737FA061F385A7600000800 /* pages.config in Resources */,
-				9737FA071F385A7600000800 /* pages.zip in Resources */,
-				975890211F43059100109D31 /* platform.json in Resources */,
 				9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */,
+				97DFF8D41F59054900AC60AC /* config.json in Resources */,
+				97DFF8D61F59054900AC60AC /* pages.zip in Resources */,
+				97DFF8D51F59054900AC60AC /* pages.config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
