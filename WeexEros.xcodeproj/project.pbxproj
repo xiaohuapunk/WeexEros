@@ -11,9 +11,9 @@
 		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
 		9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737F9F71F384AFD00000800 /* Assets.xcassets */; };
 		9737FA031F385A2700000800 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9737FA021F385A2700000800 /* libbz2.tbd */; };
-		97DFF8D41F59054900AC60AC /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D11F59054900AC60AC /* config.json */; };
-		97DFF8D51F59054900AC60AC /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D21F59054900AC60AC /* pages.config */; };
-		97DFF8D61F59054900AC60AC /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 97DFF8D31F59054900AC60AC /* pages.zip */; };
+		97B031731F5D2BCF0093523B /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B031701F5D2BCF0093523B /* config.json */; };
+		97B031741F5D2BCF0093523B /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 97B031711F5D2BCF0093523B /* pages.config */; };
+		97B031751F5D2BCF0093523B /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 97B031721F5D2BCF0093523B /* pages.zip */; };
 		E1DE85A0A42930C50BEB1245 /* libPods-WeexEros.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE25A79A3A97DFB7A3158EC /* libPods-WeexEros.a */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +29,9 @@
 		9737F9F71F384AFD00000800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9737F9FC1F384AFD00000800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9737FA021F385A2700000800 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		97DFF8D11F59054900AC60AC /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		97DFF8D21F59054900AC60AC /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
-		97DFF8D31F59054900AC60AC /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
+		97B031701F5D2BCF0093523B /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		97B031711F5D2BCF0093523B /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
+		97B031721F5D2BCF0093523B /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 		9737F9EB1F384AFD00000800 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97DFF8D11F59054900AC60AC /* config.json */,
-				97DFF8D21F59054900AC60AC /* pages.config */,
-				97DFF8D31F59054900AC60AC /* pages.zip */,
+				97B031701F5D2BCF0093523B /* config.json */,
+				97B031711F5D2BCF0093523B /* pages.config */,
+				97B031721F5D2BCF0093523B /* pages.zip */,
 				9737F9EC1F384AFD00000800 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -178,9 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */,
-				97DFF8D41F59054900AC60AC /* config.json in Resources */,
-				97DFF8D61F59054900AC60AC /* pages.zip in Resources */,
-				97DFF8D51F59054900AC60AC /* pages.config in Resources */,
+				97B031731F5D2BCF0093523B /* config.json in Resources */,
+				97B031751F5D2BCF0093523B /* pages.zip in Resources */,
+				97B031741F5D2BCF0093523B /* pages.config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
