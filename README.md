@@ -2,7 +2,7 @@
 基于 WeexSDK 实现的 iOS工程，可结合 BMFE_scaffold 脚手架快速开始开发 App
 
 ## WeexEros 是什么
-WeexEros 是由本木前端团队基于 [Weex](https://github.com/apache/incubator-weex) 创建的 iOS 工程，基于此工程我们已经开发并上架了两款 App。如果你恰巧也在学习weex，或者在使用 weex 中遇到了一些问题，那么可以参考一下本工程，你可以将其作为 iOS 工程模板快速开发基于 Weex 的 App。（ps:如您发现哪里写的有问题，或需要优化，欢迎提出宝贵的建议，谢谢!）
+WeexEros 是由本木前端团队基于 [Weex](https://github.com/apache/incubator-weex) 创建的 iOS 工程，基于此工程我们已经开发并上架了两款 App。如果你恰巧也在学习weex，或者在使用 weex 中遇到了一些问题，那么可以参考一下本工程，你可以将其作为 iOS 工程模板快速开发基于 Weex 的 App。（ps:如您发现哪里写的有问题，或需要优化，欢迎提issues，谢谢!）
 
 ## WeexEros 能实现哪些功能
 使用 WeexEros 可以将所有业务相关代码都放到 js 端来实现，native端工程只提供基础功能不侵入业务，我们在 Weex 的基础上扩展了一套适合在项目中使用的 [Module](https://weex.incubator.apache.org/cn/references/advanced/extend-to-ios.html)、[Component](https://weex.incubator.apache.org/cn/references/advanced/extend-to-ios.html)供 js 端调用，并且已经集成在工程中。还实现了一些大多数 App 都需要用到的功能；
@@ -39,4 +39,4 @@ WeexEros 是由本木前端团队基于 [Weex](https://github.com/apache/incubat
 执行完成之后会自动打开 Xcode，运行项目即可；
 
 ## 感谢
-感谢所有项目中用到的第三方SDK作者，感谢你们对开源社区做出的贡献。
+感谢所有项目中用到的第三方SDK作者，感谢你们。
