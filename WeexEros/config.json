@@ -1,27 +1,25 @@
 {
     "appName": "weex-eros-template",
     "version": {
-        "android": "1.0.0",
-        "iOS": "1.0.0"
+        "android": "weex-eros-version",
+        "iOS": "weex-eros-version"
     },
     "page": {
-        "homePage": "/pages/home/index.js",
-        "mediatorPage": "/service/bus/index.js",
-        "navBarColor": "#3385ff"
+        "homePage": "/pages/eros-demos/index.js",
+        "mediatorPage": "/pages/meditor/index.js",
+        "navBarColor": "#ffffff",
+        "navItemColor": "#333"
     },
-
     "url": {
-        "request": "http://test.weex-eros.com",
+        "request": "http://app.weex-eros.com",
         "jsServer": "http://app.weex-eros.com",
-        "image": "https://lev-inf.benmu-health.com/test/xxx",
-        "updateVersion": "http://test.weex-eros.com/version/checkJSUpdate"
+        "image": "https://lev-inf.benmu-health.com/test/xxx"
     },
     "zipFolder": {
-        "server": "home/app/",
+        "server": "/Users/yangmingzhe/Work/opensource/eros-diff-folder",
         "iOS": "/ios/WeexEros/WeexEros",
         "android": "/android/WeexFrameworkWrapper/app/src/main/assets"
     },
-
     "getui": {
         "enabled": "false",
         "appId": "",
@@ -39,7 +37,8 @@
         "appSecret": ""
     },
     "amap": {
-        "enabled": "false",
-        "appKey": ""
+        "enabled": "true",
+        "iOSAppKey": "623c0396a9b879461c971a14baa678fb",
+        "androidAppKey": ""
     }
 }

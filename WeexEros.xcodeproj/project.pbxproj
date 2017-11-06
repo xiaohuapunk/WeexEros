@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9734F3431F6A8098007B4E9D /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 9734F3401F6A8098007B4E9D /* pages.config */; };
+		9734F3441F6A8098007B4E9D /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9734F3411F6A8098007B4E9D /* pages.zip */; };
+		9734F3461F6A832E007B4E9D /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 9734F3451F6A832E007B4E9D /* config.json */; };
 		9737F9ED1F384AFD00000800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EC1F384AFD00000800 /* main.m */; };
 		9737F9F01F384AFD00000800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737F9EF1F384AFD00000800 /* AppDelegate.m */; };
 		9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737F9F71F384AFD00000800 /* Assets.xcassets */; };
 		9737FA031F385A2700000800 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9737FA021F385A2700000800 /* libbz2.tbd */; };
-		97B031731F5D2BCF0093523B /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B031701F5D2BCF0093523B /* config.json */; };
-		97B031741F5D2BCF0093523B /* pages.config in Resources */ = {isa = PBXBuildFile; fileRef = 97B031711F5D2BCF0093523B /* pages.config */; };
-		97B031751F5D2BCF0093523B /* pages.zip in Resources */ = {isa = PBXBuildFile; fileRef = 97B031721F5D2BCF0093523B /* pages.zip */; };
 		E1DE85A0A42930C50BEB1245 /* libPods-WeexEros.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE25A79A3A97DFB7A3158EC /* libPods-WeexEros.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +22,9 @@
 		5CEF84707EB054DDBAA36BA2 /* Pods-WeexEros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexEros.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexEros/Pods-WeexEros.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE25A79A3A97DFB7A3158EC /* libPods-WeexEros.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexEros.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97155AC51F444E4200615307 /* WeexEros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeexEros.entitlements; sourceTree = "<group>"; };
+		9734F3401F6A8098007B4E9D /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
+		9734F3411F6A8098007B4E9D /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
+		9734F3451F6A832E007B4E9D /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		9737F9E81F384AFD00000800 /* WeexEros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexEros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9737F9EC1F384AFD00000800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9737F9EE1F384AFD00000800 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,9 +32,6 @@
 		9737F9F71F384AFD00000800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9737F9FC1F384AFD00000800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9737FA021F385A2700000800 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		97B031701F5D2BCF0093523B /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		97B031711F5D2BCF0093523B /* pages.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.config; sourceTree = "<group>"; };
-		97B031721F5D2BCF0093523B /* pages.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pages.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 				9737F9EF1F384AFD00000800 /* AppDelegate.m */,
 				9737F9F71F384AFD00000800 /* Assets.xcassets */,
 				9737F9FC1F384AFD00000800 /* Info.plist */,
+				9737F9EC1F384AFD00000800 /* main.m */,
 				9737F9EB1F384AFD00000800 /* Supporting Files */,
 			);
 			path = WeexEros;
@@ -99,10 +100,9 @@
 		9737F9EB1F384AFD00000800 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97B031701F5D2BCF0093523B /* config.json */,
-				97B031711F5D2BCF0093523B /* pages.config */,
-				97B031721F5D2BCF0093523B /* pages.zip */,
-				9737F9EC1F384AFD00000800 /* main.m */,
+				9734F3451F6A832E007B4E9D /* config.json */,
+				9734F3401F6A8098007B4E9D /* pages.config */,
+				9734F3411F6A8098007B4E9D /* pages.zip */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9737F9F81F384AFD00000800 /* Assets.xcassets in Resources */,
-				97B031731F5D2BCF0093523B /* config.json in Resources */,
-				97B031751F5D2BCF0093523B /* pages.zip in Resources */,
-				97B031741F5D2BCF0093523B /* pages.config in Resources */,
+				9734F3461F6A832E007B4E9D /* config.json in Resources */,
+				9734F3441F6A8098007B4E9D /* pages.zip in Resources */,
+				9734F3431F6A8098007B4E9D /* pages.config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +193,56 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeexEros/Pods-WeexEros-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMapNavi.bundle",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/ATSDK.bundle",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/en.lproj",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/zh-Hans.lproj",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Calendar/Resources/CalendarLeftArrows@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Calendar/Resources/CalendarLeftArrows@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Calendar/Resources/CalendarReightArrows@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Calendar/Resources/CalendarReightArrows@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Chart/Resources/bm-chart.html",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMComponent/Chart/Resources/echarts.min.js",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/decrease@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/endPoint@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/endPoint@3.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/gpsStat1@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/increase@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/navIcon@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/navIcon@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/startPoint@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMController/Resources/startPoint@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/actionFontSize@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/actionFontSize@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/actionIcon@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/actionIcon@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/feedback@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/feedback@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_icon@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_icon@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_pasteboard@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_pasteboard@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_wechatSession@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_wechatSession@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_wechatTimeLine@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMManager/Resources/share_wechatTimeLine@3x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMWeexExtension/Resources/bm-base.js",
+				"${PODS_ROOT}/../Benmu-iOS-Library/BMWeexExtension/Resources/arrowInKeyboard@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/Weexplugin/Resources/greenPin.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/Weexplugin/Resources/greenPin@2x.png",
+				"${PODS_ROOT}/../Benmu-iOS-Library/Weexplugin/Resources/greenPin@3x.png",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/../WeexiOSSDK/WeexSDK/Resources/native-bundle-main.js",
+				"${PODS_ROOT}/../WeexiOSSDK/WeexSDK/Resources/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,13 +270,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeexEros-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -345,9 +395,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WeexEros/WeexEros.entitlements;
 				DEVELOPMENT_TEAM = 25KVQ5BY97;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = WeexEros/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -431,8 +483,6 @@
 					"\"Security\"",
 					"-framework",
 					"\"SystemConfiguration\"",
-					"-framework",
-					"\"TBWXDevTool\"",
 					"-framework",
 					"\"UIKit\"",
 					"-framework",
@@ -457,9 +507,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WeexEros/WeexEros.entitlements;
 				DEVELOPMENT_TEAM = 25KVQ5BY97;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = WeexEros/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -543,8 +595,6 @@
 					"\"Security\"",
 					"-framework",
 					"\"SystemConfiguration\"",
-					"-framework",
-					"\"TBWXDevTool\"",
 					"-framework",
 					"\"UIKit\"",
 					"-framework",
