@@ -1,5 +1,5 @@
 # WeexEros
-基于 WeexSDK 实现的 iOS工程，可结合 BMFE_scaffold 脚手架快速开始开发 App，完整的文档请看这里 [weex-eros]( https://karynsong.gitbooks.io/weex-eros/content/ )
+基于 WeexSDK 实现的 iOS工程，可结合 BMFE_scaffold 脚手架快速开始开发 App，完整的文档请看这里 [weex-eros]( https://github.com/bmfe/eros-template )
 
 ## WeexEros 是什么
 WeexEros 是基于 [Weex](https://github.com/apache/incubator-weex) 创建的 iOS 工程，基于此工程我们已经开发并上架了两款 App。如果你恰巧也在学习weex，或者在使用 weex 中遇到了一些问题，那么可以参考一下本工程，你可以将其作为 iOS 工程模板快速开发基于 Weex 的 App。（ps:如您发现哪里写的有问题，或需要优化，欢迎提issues，谢谢!）
